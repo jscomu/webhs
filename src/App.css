@@ -92,7 +92,7 @@ section p:list-of-type {
 
 section a {
   display: block;
-  border: 10px solid black;
+  border: 5px solid black;
   width: 150px;
   font-size: 1.3rem;
   font-weight: 600;
@@ -100,7 +100,7 @@ section a {
   padding: 1rem;
   border-radius: 10px;
   text-decoration: none;
-  background-color: white;
+  background-color: gray;
   color: black;
 }
 

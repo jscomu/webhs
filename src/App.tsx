@@ -35,7 +35,7 @@ function App() {
         <FrdCom />
         <div>
 			{frd.friends.map(fr => (
-				<h3 key={fr.id}>안녕하세요. {fr.name}({fr.url}) 입니다.</h3>
+				<a href="#" key={fr.id}>안녕하세요. {fr.name}({fr.url}) 입니다.</a>
 			))}
         </div>
     </section>
