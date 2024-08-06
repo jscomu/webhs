@@ -1,4 +1,13 @@
 {
+    "myprofile" : [
+        {"id" : "1", "name" : "이름", "value" : "홍길동"},
+        {"id" : "2", "name" : "생년월일", "value" : "0000 00 00"},
+        {"id" : "3", "name" : "소속", "value" : "XX학교"},
+        {"id" : "4", "name" : "취미", "value" : "자전거"},
+        {"id" : "5", "name" : "특기", "value" : "게임"},
+        {"id" : "6", "name" : "연락처", "value" : "010-1111-2222"},
+        {"id" : "8", "name" : "이메일", "value" : "aaa@gmail.com"}
+    ],
     "friends" : [
         {"id" : "1", "name" : "제임스", "photo" : "/img/icon-happy-face.png", "url" : "#1"}, 
         {"id" : "2", "name" : "브루노", "photo" : "/img/icon-rolling-eyes.png", "url" : "#2"}, 

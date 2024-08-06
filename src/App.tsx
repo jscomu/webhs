@@ -15,18 +15,21 @@ function App() {
         </ul>
     </header>
     <section id="sect1">
-        <p>Section 1111111 Title</p>
-        <p>Section 2 Title</p>
+        <p>넓고 푸른 바다</p>
+        <p>아름다운 세상</p>
         <img src={process.env.PUBLIC_URL + '/img/ferrari.jpg'} className="proPhoto" alt="Person" />
+        <div>
+            {frd.myprofile.map(my => (
+                <ul>
+                    <li>{my.name} : {my.value}</li>
+                </ul>
+            ))}
+        </div>
         <p>Title Lorem ipusm sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
         <p>타입스크립트(TypeScript)는 자바스크립트의 슈퍼셋인 오픈소스 프로그래밍 언어이다. 마이크로소프트에서 개발, 유지하고 있으며 엄격한 문법을 지원한다. C#의 리드 아키텍트이자 델파이, 터보 파스칼의 창시자인 Anders Hejlsberg가 개발에 참여한다.[4] 클라이언트 사이드와 서버 사이드를 위한 개발에 사용할 수 있다.
-
 타입스크립트는 자바스크립트 엔진을 사용하면서 커다란 애플리케이션을 개발할 수 있게 설계된 언어이다.[5] 자바스크립트의 슈퍼셋이기 때문에 자바스크립트로 작성된 프로그램이 타입스크립트 프로그램으로도 동작한다.
-
 타입스크립트에서 자신이 원하는 타입을 정의하고 프로그래밍을 하면 자바스크립트로 컴파일되어 실행할 수 있다.
-
 타입스크립트는 모든 운영 체제, 모든 브라우저, 모든 호스트에서 사용 가능한 오픈 소스이다.</p>
-
         <a href="https://www.youtube.com/watch?v=LZ5M-e5z01c">Learn more</a>
     </section>
     <br /><br />
