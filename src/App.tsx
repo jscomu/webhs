@@ -8,11 +8,13 @@ function App() {
     <div className="container">
     <header>
         <p>Cover Title</p>
+        <div>
         <ul>
             <li><a href="#">Home1</a></li>
             <li><a href="#sect2">Home2</a></li>
             <li><a href="#sect3">Home3</a></li>
         </ul>
+        </div>
     </header>
     <section id="sect1">
         <p>넓고 푸른 바다</p>
@@ -21,6 +23,7 @@ function App() {
         <div>
             {frd.myprofile.map(my => (
                 <ul>
+                    <li>{my.name} : {my.value}</li>
                     <li>{my.name} : {my.value}</li>
                 </ul>
             ))}

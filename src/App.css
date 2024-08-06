@@ -85,6 +85,14 @@ section p:first-child {
   text-align: center;
 }
 
+section[id="sect1"] ul {
+  padding: 5px;
+}
+section[id="sect1"] ul li {
+  display: flex;
+  flex-direction: column;
+  color: rgb(218, 235, 165);
+}
 /*
 section p:list-of-type {
   font-size: 1.3rem;
