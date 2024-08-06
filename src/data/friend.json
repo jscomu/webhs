@@ -1,7 +1,7 @@
 {
     "friends" : [
-        {"id" : "1", "name" : "제임스", "url" : "#1"}, 
-        {"id" : "2", "name" : "브루노", "url" : "#2"}, 
-        {"id" : "3", "name" : "피터", "url" : "#3"}
+        {"id" : "1", "name" : "제임스", "photo" : "/img/icon-happy-face.png", "url" : "#1"}, 
+        {"id" : "2", "name" : "브루노", "photo" : "/img/icon-rolling-eyes.png", "url" : "#2"}, 
+        {"id" : "3", "name" : "피터", "photo" : "/img/icon-happy-face.png", "url" : "#3"}
     ]
 }

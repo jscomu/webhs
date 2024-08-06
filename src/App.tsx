@@ -35,7 +35,13 @@ function App() {
         <FrdCom />
         <div>
 			{frd.friends.map(fr => (
-				<a href="#" key={fr.id}>안녕하세요. {fr.name}({fr.url}) 입니다.</a>
+				//<a href="#" key={fr.id}>안녕하세요. {fr.name}({fr.url}) 입니다.</a>
+                <ul>
+                    <li>
+                        <span className='frphoto'><img src={process.env.PUBLIC_URL + fr.photo} width='30' height='30' /></span>
+                        <span className='frname'>{fr.name}({fr.url})</span>
+                    </li>
+                </ul>
 			))}
         </div>
     </section>
@@ -45,7 +51,7 @@ function App() {
         <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3163.100452954271!2d126.94781206548213!3d37.55269703047339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sko!2skr!4v1722414251352!5m2!1sko!2skr" width="600" height="450" loading="lazy"></iframe>
     </section>
     <footer>
-        reserved
+        <p>© 2024. <a href="#">stones</a> All rights reserved.</p>
     </footer>
 </div>
   );
