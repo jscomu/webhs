@@ -85,38 +85,31 @@ section p:first-child {
   text-align: center;
 }
 
+.prodesc {
+  width: 200px;
+  margin: 0 auto; /* 수평 중앙 정렬하기 */
+  margin-bottom: 2rem;
+}
 section[id="sect1"] ul {
   padding: 5px;
 }
 section[id="sect1"] ul li {
   display: flex;
-  flex-direction: column;
   color: rgb(218, 235, 165);
 }
-/*
-section p:list-of-type {
-  font-size: 1.3rem;
-  font-weight: 500;
+.proessay {
+  max-width: 360px;
+  margin: 0 auto; /* 수평 중앙 정렬하기 */
+  line-height: 1.8rem;    /*최상위 html 폰트가 16px 이므로, 줄간격은 그 1.8배*/
+  letter-spacing: 2px;    /*글자 간격*/
+  word-spacing: 1px;      /*단어 간격*/
+  text-indent: 10px;      /*들여쓰기*/
+  text-align: left;
 }
-
-section a {
-  display: block;
-  border: 5px solid black;
-  width: 150px;
-  font-size: 1.3rem;
-  font-weight: 600;
-  margin: auto;
-  padding: 1rem;
-  border-radius: 10px;
-  text-decoration: none;
-  background-color: gray;
-  color: black;
-}
-*/
 
 section[id="sect2"] ul {
   position: relative;
-  width: 450px;
+  width: 400px;
   margin: 100px auth 0;
   padding: 10px;
   box-sizing: border-box;
@@ -128,12 +121,16 @@ section[id="sect2"] ul li {
   color: blueviolet;
   margin: 5px 0;
   transition: .5s;
+  border-radius: 20px;
 }
 section[id="sect2"] ul li:hover {
   transform: scale(1.05);
   background-color: rgb(148, 116, 76);
 }
-
+section[id="sect2"] a {
+  text-decoration: none;
+  color: black;
+}
 .frphoto {
   width: 20%;
   align-items: center;
