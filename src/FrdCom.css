@@ -1,0 +1,18 @@
+.div_wise {
+  margin: 10px;
+  padding: 10px;
+  line-height: 2.5rem;
+}
+
+.btnexe {
+  width: 100px;
+  height: 30px;
+  background-color:#bbcca9;
+  border:none;
+  border-radius: 20px;
+}
+
+.btnexe:hover {
+  background-color:#6b82be;
+  transition: 0.7s;
+}

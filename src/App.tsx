@@ -28,11 +28,11 @@ function App() {
             ))}
         </div>
         <p className='proessay'>저는 IT에 관심이 많은 학생입니다. 현재 프로그래밍 공부를 하고 있습니다. 스프링부트 프레임워크를 활용하여 웹사이트 구축을 하고 있습니다. 다음에 크로스플랫폼 모바일 APP 개발을 할 예정입니다.</p>
+        <FrdCom />
     </section>
     <br /><br />
     <section id="sect2">
         <p>친구들</p>
-        <FrdCom />
         <div>
 			{frd.friends.map(fr => (
 				//<a href="#" key={fr.id}>안녕하세요. {fr.name}({fr.url}) 입니다.</a>

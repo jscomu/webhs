@@ -1,12 +1,21 @@
-import React from "react";
-
-interface FrProps {
-  name: string,
-  url: string
-}
+import React, {useState} from "react";
+import './FrdCom.css';
+import frd from "./data/friend.json";
 
 const FrdCom = () => {
-  return <div>테스트 페이지</div>;
+  const [num, setNum] = useState(0)
+
+  const buttClick = () => {
+    const randomNum = Math.floor(Math.random() * 6 + 0); //0~5랜덤
+    setNum(randomNum)
+  }
+
+  return(
+    <div className="div_wise">
+      <button className="btnexe" onClick={buttClick}>Wise Saying</button>
+      <p>{frd.wise[num].content}</p>
+    </div>
+  );
 };
 
 export default FrdCom;

@@ -13,5 +13,13 @@
         {"id" : "1", "name" : "제임스", "photo" : "/img/icon-happy-face.png", "url" : "https://www.naver.com/"}, 
         {"id" : "2", "name" : "브루노", "photo" : "/img/icon-rolling-eyes.png", "url" : "https://ko.wikipedia.org/"}, 
         {"id" : "3", "name" : "피터", "photo" : "/img/icon-happy-face.png", "url" : "https://www.w3schools.com/"}
+    ],
+    "wise" : [
+        {"content" : "노력 없이 쓰인 글은 대개 감흥 없이 읽힌다. -사무엘 잭슨"},
+        {"content" : "그 어떤 것에서라도 내적인 도움과 위안을 찾을 수 있다면 그것을 잡아라. -마하트마 간디"},
+        {"content" : "춤추는 별을 잉태하려면 반드시 스스로의 내면에 혼돈을 지녀야 한다. -프리드리히 니체"},
+        {"content" : "우리가 노력 없이 얻는 거의 유일한 것은 노년이다. -글로리아 피처"},
+        {"content" : "가장 큰 위험은 위험 없는 삶이다. -스티브 코비"},
+        {"content" : "멈추지만 않는다면 얼마나 천천히 가는가는 문제가 되지 않는다. -공자"}
     ]
 }
